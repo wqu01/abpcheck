@@ -1,0 +1,95 @@
+*{
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 150px;
+}
+/*.content {
+    padding: 50px;
+    border-style: solid;
+}
+*/
+body{
+    margin: 0px;    
+}
+h1{
+    color: #ffb3c0;
+    /*font-size: 50px;*/
+}
+.top-container{
+    color: white;    
+    text-align: center;
+    padding: 20px 0px;
+    /*width: 100%;*/
+    background-color: #e0e0eb;
+    /*border-radius: 10px;*/
+}
+
+input{
+    background-color:#ffccd6;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: transparent;
+
+}
+input#search_box{
+    width: 25em;
+    height: 2em;
+    font-size: 15px;
+    color: white;
+    /*background-color: pink;*/
+}
+input#search_button{
+    -webkit-appearance: none;
+    color: white;
+    font-size: 15px;
+    width: 5em;
+    height: 2em;
+    /*background-color: pink;*/
+}
+input#select_button{
+    height: 3em;
+
+}
+.price-container{
+    text-align: center;
+    position: relative;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    border: transparent;
+    background: radial-gradient(circle, #e0e0eb 20%, transparent 20%),
+                radial-gradient(circle, #e0e0eb 20%, white 20%) 60px 60px;
+    background-size:100px 100px; 
+}
+#Jolse{
+    float: left;
+    padding: 10px;
+    width: 25%;
+    margin-left: 5%; 
+    background-color: white;
+}
+#RRS{
+    float: right;
+    margin-right: 5%;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
+}
+#TK{
+    float: left;
+    margin-left: 5.25%;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
+}
+
+
+
+
